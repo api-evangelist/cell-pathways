@@ -1,23 +1,121 @@
 aid: cell-pathways
 name: Cell Pathways
-description: Cell Pathways is a company surfaced as a portfolio company of canaan-partners and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Cell Pathways, Inc. (CPI) was a development-stage pharmaceutical company
+  headquartered at 702 Electronic Drive, Horsham, Pennsylvania, focused on the research
+  and development of products to treat and prevent cancer. Incorporated in Delaware
+  in July 1998 (as Cell Pathways Holdings, Inc., renamed Cell Pathways, Inc. in February
+  2001), it developed a class of compounds it called selective apoptotic anti-neoplastic
+  drugs (SAANDs), designed to induce selective apoptosis — programmed cell death —
+  in precancerous and cancerous cells without affecting normal cells. Its lead candidate
+  was Aptosyn (exisulind), studied in precancerous lesions such as colonic polyps and
+  cervical dysplasia and later in prostate, lung, and breast cancer; the company also
+  imported, promoted, and sold Gelclair Concentrated Oral Gel into oncology and dental
+  markets, and had previously marketed Nilandron. It traded on the Nasdaq National
+  Market (Commission File No. 000-24889) and employed approximately 34 people full-time
+  as of March 1, 2003. In February 2003 Cell Pathways signed an Agreement and Plan
+  of Merger to be acquired by OSI Pharmaceuticals, Inc. in a stock-for-stock exchange;
+  stockholders approved the merger on June 10, 2003, and the company filed a Form 15-12G
+  on June 12, 2003 terminating its Exchange Act registration with one holder of record.
+  OSI Pharmaceuticals was itself acquired by Astellas Pharma and deregistered on June
+  18, 2010. Cell Pathways predates the API economy entirely, never operated a developer
+  program or public API surface, and no longer exists as an operating entity. This
+  profile is retained as an acquired-company lead with no API surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/cell-pathways/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cell-pathways.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: osi-pharmaceuticals
+x-acquired-date: '2003-06'
+x-successor: OSI Pharmaceuticals (subsequently acquired by Astellas Pharma, 2010)
+x-no-api-surface: true
+x-domain-reassigned: true
+x-evidence:
+- probe: SEC EDGAR company record (CIK 0001066284)
+  result: CELL PATHWAYS INC /DE, SIC 2834 Pharmaceutical Preparations, Horsham PA;
+    former name CELL PATHWAYS HOLDINGS INC (until 2001-02-14); 74 filings spanning
+    1998-07-22 (S-4) through 2003-06-12
+  url: https://data.sec.gov/submissions/CIK0001066284.json
+- probe: SEC Form 15-12G (termination of registration), filed 2003-06-12
+  result: 'Certification and Notice of Termination of Registration under Section 12(g);
+    Commission File No. 000-24889; approximate number of holders of record: One —
+    consistent with the company becoming a wholly owned subsidiary'
+  url: https://www.sec.gov/Archives/edgar/data/1066284/000095012303006981/y87358e15v12g.txt
+- probe: SEC Form 425 merger communication, filed 2003-05-30
+  result: 'Filed by OSI Pharmaceuticals, Inc.; Subject Company: Cell Pathways, Inc.
+    — confirms the proposed merger of OSI Pharmaceuticals and Cell Pathways and the
+    June 10, 2003 stockholder meeting'
+  url: https://www.sec.gov/Archives/edgar/data/1066284/000095012303006696/y87196e425.htm
+- probe: SEC Form 10-K for FY2002, filed 2003-03-27
+  result: business description, SAANDs technology, Aptosyn (exisulind) and Gelclair
+    product detail, ~34 full-time employees as of 2003-03-01, and disclosure of the
+    February 2003 OSI merger agreement
+  url: https://www.sec.gov/Archives/edgar/data/1066284/000089322003000434/w84292e10vk.txt
+- probe: SEC EDGAR successor lookup — OSI PHARMACEUTICALS INC (CIK 0000729922)
+  result: filed Form 15-12G on 2010-06-18, deregistering after its own acquisition
+    (Astellas Pharma); the successor developer surface, if any, is not Cell Pathways
+- probe: whois cellpathways.com
+  result: Creation Date 2020-02-15 — 17 years AFTER Cell Pathways deregistered in 2003.
+    Registrar GoDaddy.com, LLC; name servers NS*.DURABLEDNS.COM. This is a re-registration
+    by an unrelated third party, NOT continuity of the company domain.
+- probe: https://cellpathways.com/ (HTTP 200)
+  result: unrelated WordPress site titled "Cell Pathways - Index of Biotech and Genetics",
+    a generic biotech/genetics content blog. NOT the pharmaceutical company. Deliberately
+    NOT wired as a Website pointer to avoid attributing third-party content to this
+    company.
+- probe: /.well-known/security.txt, /openid-configuration, /oauth-authorization-server,
+    /api-catalog, /ai-plugin.json, /llms.txt, /openapi.json, /api on cellpathways.com
+  result: all 404 — no discovery, developer, or API surface (and the host is not the
+    company's in any case)
+- probe: GitHub organization search for "cellpathways" / "cell-pathways"
+  result: 0 results — no GitHub organization
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Oncology
+- Cancer Research
+- Drug Development
+- Life Sciences
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Successor
+  name: OSI Pharmaceuticals, Inc.
+  url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000729922&type=&dateb=&owner=include&count=40
+- type: SECFilings
+  name: SEC EDGAR — CELL PATHWAYS INC /DE (CIK 0001066284)
+  url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001066284&type=&dateb=&owner=include&count=40
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+  note: completed pass — no API surface exists to enrich. Company deregistered 2003-06-12
+    after the OSI Pharmaceuticals merger; identity verified against SEC EDGAR primary
+    filings. cellpathways.com is an unrelated 2020 re-registration and was deliberately
+    not wired as a company property.
