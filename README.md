@@ -64,6 +64,28 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cell Pathways is a company surfaced as a portfolio company of canaan-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: canaan-partners
+Cell Pathways, Inc. (CPI) was a development-stage pharmaceutical company headquartered at 702 Electronic Drive, Horsham, Pennsylvania, focused on the research and development of products to treat and prevent cancer. Incorporated in Delaware in July 1998 (as Cell Pathways Holdings, Inc., renamed Cell Pathways, Inc. in February 2001), it developed a class of compounds it called selective apoptotic anti-neoplastic drugs (SAANDs), designed to induce selective apoptosis — programmed cell death — in precancerous and cancerous cells without affecting normal cells. Its lead candidate was Aptosyn (exisulind), studied in precancerous lesions such as colonic polyps and cervical dysplasia and later in prostate, lung, and breast cancer; the company also imported, promoted, and sold Gelclair Concentrated Oral Gel into oncology and dental markets, and had previously marketed Nilandron. It traded on the Nasdaq National Market (Commission File No. 000-24889) and employed approximately 34 people full-time as of March 1, 2003. In February 2003 Cell Pathways signed an Agreement and Plan of Merger to be acquired by OSI Pharmaceuticals, Inc. in a stock-for-stock exchange; stockholders approved the merger on June 10, 2003, and the company filed a Form 15-12G on June 12, 2003 terminating its Exchange Act registration with one holder of record. OSI Pharmaceuticals was itself acquired by Astellas Pharma and deregistered on June 18, 2010. Cell Pathways predates the API economy entirely, never operated a developer program or public API surface, and no longer exists as an operating entity. This profile is retained as an acquired-company lead with no API surface to enrich.
+
+**Areas:** Company · Pharmaceuticals · Biotechnology · Oncology · Cancer Research · Drug Development · Life Sciences · Acquired · Defunct
+
+## Cell Pathways on APIs.io (historical record)
+
+Everything profiled for Cell Pathways is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cell-pathways/](https://apis.io/providers/cell-pathways/)** — or go straight to one of the APIs or properties below.
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cell Pathways: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cell-pathways/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
